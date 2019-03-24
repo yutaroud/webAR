@@ -15,16 +15,17 @@
         <!-- オブジェクトの追加 -->
         <a-entity gltf-model="src: url(./tv.gltf);"
                   animation-mixer="loop: pingpong;"
-                  position="-0.5 0.1 0"
+                  position="0 0.1 0"
                   scale="0.01 0.01 0.01"
-                  shadow="receive: true"></a-entity>
+                  shadow="receive: false"></a-entity>
 
         <a-plane position="0 0 0"
                  rotation="0 0 0"
                  width="2" height="2"
                  color="#fff"
-                 shadow="receive: true"></a-plane>
-
+                 shadow="receive: false"></a-plane>
+        <!-- a-entity light="type: directional; color: #fff; castShadow:true;"
+                  position="-10 10 10"></a-entity> -->
     </a-marker>
 
 
